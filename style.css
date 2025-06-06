@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+    color: #d4c5f5;
+    background-image: url(./imagenes/fondo5.png);
+    background-size:contain;
+}
+nav * {
+    color: #d4c5f5 !important;
+  }
+
+nav{
+    background-color: #d4c5f544;
+}
+
+.logoNav{
+    width: 10%;
+}
+
+.custom-hover:hover{
+    background-color: #d4c5f5;
+    color: black !important;
+    border-radius: 10px;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+#header{
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    margin: 0;
+}
+
+#tituloPrincipal{
+    font-size: 3.1rem;
+}
+
+.container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.btn{
+    background-color: #E9FF2077;
+    border-radius: 20px;
+    color: #E9FF20;
+}
+
+.hola{
+height: 250px;
+}
+
+#logoSeccion{
+    width:70%;
+    height:70%;
+}
+footer{
+    width: 100%;
+}
+#logoFooter{
+    width:20%;
+    height:20%;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+#comentarios{
+    height: 200px;
+}
+
+ul{
+    list-style: none;
+    font-size: 0.9rem;
+}
+textarea.form-control {
+    min-height: 200px;
+  }
+
+.textoSeccion{
+    color: #E9FF20 !important;
+    font-size: 1.2rem !important;
+
+}
+
+@media (min-width: 768px) {
+
+    .logoNav{
+        width: 5%;
+    }
+    #header {
+        padding-left: 15rem;
+    }
+    #tituloPrincipal{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 5rem;
+    }
+
+    #tituloForm{
+        font-size: 3rem;
+    }
+
+    #logoFooter{
+        width:130px;
+    }
+
+}
